@@ -67,7 +67,7 @@ def inicijalizuj_stablo():
     internet.add_child(ruter)
     internet.add_child(spora)
     
-    stanje = DialogueNode("RAC_STANJE", "Vaše trenutno stanje računa je 0.00 KM. Napišite 'pocetak' za povratak.", "stanje")
+    stanje = DialogueNode("RAC_STANJE", "Vaše trenutno stanje računa je 0.00 E. Napišite 'pocetak' za povratak.", "stanje")
     placanje = DialogueNode("RAC_PLAY", "Online plaćanje možete izvršiti putem aplikacije. Napišite 'pocetak' za povratak.", "placanje")
     racun.add_child(stanje)
     racun.add_child(placanje)
